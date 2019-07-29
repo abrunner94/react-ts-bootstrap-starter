@@ -1,6 +1,6 @@
 # react-ts-bootstrap-starter
 
-Get up and running with React, TypeScript, SaSS and Bootstrap without the hassle.
+Get up and running with React, React Router, TypeScript, SaSS and Bootstrap without the hassle.
 
 ## Instructions
 
