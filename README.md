@@ -9,5 +9,6 @@ Clone the repository and start the development server.
 ```bash
 $ git clone https://github.com/anamake/react-ts-bootstrap-starter.git
 $ cd react-ts-bootstrap-starter
+react-ts-bootstrap-starter $ yarn
 react-ts-bootstrap-starter $ yarn start
 ```
