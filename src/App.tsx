@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container fluid>
+        <Row className="justify-content-md-left">
+          <Col md="auto">
+            <h1>Welcome!</h1>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-left">
+          <Col md="auto">
+            <p>
+              Working with React, Bootstrap, SaSS and TypeScript is now easier
+              to get started with.
+            </p>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-left">
+          <Col md="auto">
+            {" "}
+            <Button>Got It</Button>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
-}
+};
 
 export default App;
